@@ -2,6 +2,7 @@ from django.db import models
 from django.contrib.auth.models import AbstractBaseUser
 from django.contrib.auth.models import PermissionsMixin
 from django.contrib.auth.models import BaseUserManager
+from django.conf import settings
 
 
 class UserProfileManager(BaseUserManager):
@@ -13,7 +14,7 @@ class UserProfileManager(BaseUserManager):
             raise ValueError('Users must have an email address')
 
         email = self.normalize_email(email)
-        user = self.model(email=email, name=name,)
+        user = self.model(email=email, name=name, )
 
         user.set_password(password)
         user.save(using=self._db)
@@ -54,3 +55,17 @@ class UserProfile(AbstractBaseUser, PermissionsMixin):
     def __str__(self):
         """Return string representation of our user"""
         return self.email
+
+
+class ProfileFeedItem(models.Model):
+    """Profile status update"""
+    user_profile = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE
+    )
+    status_text = models.CharField(max_length=255)
+    created_on = models.DateTimeField(auto_now_add=True)
+
+    def __str__(self):
+        """Return the model as a string"""
+        return self.status_text
