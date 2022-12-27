@@ -5,7 +5,7 @@ set -e
 # TODO: Set to URL of git repo.
 PROJECT_GIT_URL='https://github.com/KamoliddinIbrohimov/profiles-rest-api.git'
 
-PROJECT_BASE_PATH='/usr/local/apps3/profiles-rest-api'
+PROJECT_BASE_PATH='/usr/local/apps/profiles-rest-api'
 
 echo "Installing dependencies..."
 apt-get update
@@ -21,7 +21,7 @@ python3 -m venv $PROJECT_BASE_PATH/env
 
 # Install python packages
 $PROJECT_BASE_PATH/env/bin/pip install -r $PROJECT_BASE_PATH/requirements.txt
-$PROJECT_BASE_PATH/env/bin/pip install uwsgi==2.0.18
+$PROJECT_BASE_PATH/env/bin/pip install uwsgi
 
 # Run migrations and collectstatic
 cd $PROJECT_BASE_PATH
