@@ -11,4 +11,8 @@ Here's what I did in this repository:<br/>
 ✅Authenticate with username & password:<br>
 <a href="http://139.59.140.92/api/profile/" target='_blank'><img height="600px" src="https://user-images.githubusercontent.com/104998959/210187078-dc73a625-d886-4aad-b3d3-ce607bc585d7.png"></a>
 
-<a href="http://139.59.140.92/api/profile/" target='_blank'><img height="600px" src="https://user-images.githubusercontent.com/104998959/210187146-1b87b508-afb8-4c14-9966-35f27a0a8890.png"></a>
+<a href="http://139.59.140.92/api/profile/" target='_blank'><img height="600px" src="https://user-images.githubusercontent.com/104998959/210187146-1b87b508-afb8-4c14-9966-35f27a0a8890.png"></a><br/><br/>
+
+✅Manage user profile feed items:<br/>
+❕I suggest you test this part using "posmen" or similar program.<br/>
+<a href="http://139.59.140.92/api/feed/" target='_blank'><img height="600px" src="https://user-images.githubusercontent.com/104998959/210187283-e6e78afc-aa7d-4eae-bc3c-90273cb5c866.png"></a>
