@@ -5,4 +5,4 @@
 
 Here's what I did in this repository:<br/>
 ✅Create,update,delete & manage user profile<br/>
-<img height="180em" src="https://user-images.githubusercontent.com/104998959/210186604-31fe9705-7d37-46a8-a907-d3e553f7e930.png" alt="Kamoliddin" align = "center"/>
+<img height="180px" src="https://user-images.githubusercontent.com/104998959/210186604-31fe9705-7d37-46a8-a907-d3e553f7e930.png" alt="Kamoliddin" align = "center"/>
