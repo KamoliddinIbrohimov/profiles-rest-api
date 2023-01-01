@@ -1,4 +1,7 @@
 # Profiles REST API
 
 Profiles REST API code.
-![API](https://user-images.githubusercontent.com/104998959/210186083-2068d97a-076a-4b18-a2b2-6988b86463a5.png)
+👀 Follow projects through my telegram channel: <a href="https://t.me/my_partfolio_web"><img height="30em" src="https://telegra.ph/file/6dab703f0e680b0ed613f.png" alt = "Telegram"/></a>
+<br/><br/><br/>
+
+Here's what I did in this repository:
