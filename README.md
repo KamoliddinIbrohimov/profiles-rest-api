@@ -18,7 +18,7 @@
 <a href="http://139.59.140.92/api/feed/" target='_blank'><img height="600px" src="https://user-images.githubusercontent.com/104998959/210187283-e6e78afc-aa7d-4eae-bc3c-90273cb5c866.png"></a><br/><br/>
 
 <h2>To-do list:</h2><br/>
-➡️Create a working local devolopment server✅<br/>
+➡️Create a working local development server✅<br/>
 ➡️Use Django models to create a database✅<br/>
 ➡️Enable and use Django Admin✅<br/>
 ➡️Use Django dev server to run & test code✅<br/>
